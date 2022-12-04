@@ -1,0 +1,12 @@
+.idea/
+out/
+/shelf/
+/workspace.xml
+
+*.py[cod]
+__pycache__/
+*$py.class
+*.so
+
+.mypy_cache/
+venv/
