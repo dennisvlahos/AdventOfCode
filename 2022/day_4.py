@@ -28,7 +28,7 @@ def calculate_full_overlap(pairs: list[ElfPair]) -> list[ElfPair]:
     return results
 
 
-def calculat_partial_overlap(pairs: list[ElfPair]) -> list[ElfPair]:
+def calculate_partial_overlap(pairs: list[ElfPair]) -> list[ElfPair]:
     """
     Calculates the elf pairs whose ranges overlap each other at all.
 
@@ -81,7 +81,7 @@ def main() -> int:
     """
     pairs = process_data()
     print("(A) Fully Overlapping:", len(calculate_full_overlap(pairs)))
-    print("(B) Partially Overlapping:", len(calculat_partial_overlap(pairs)))
+    print("(B) Partially Overlapping:", len(calculate_partial_overlap(pairs)))
 
     return 0
 
